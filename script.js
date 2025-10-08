@@ -6,7 +6,7 @@ function insert_Row() {
 	const col1 = row.insertCell(0)
 	const col2 = row.insertCell(1)
 
-	col1.innerHTML = "New Cell1"
-	col2.innerHTML = "New Cell2"
+	col1.textContent = "New Cell1"
+	col2.textContent = "New Cell2"
 	table.prepand(tr);
 }
