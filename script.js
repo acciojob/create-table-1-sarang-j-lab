@@ -8,5 +8,4 @@ function insert_Row() {
 
 	col1.textContent = "New Cell1"
 	col2.textContent = "New Cell2"
-	table.prepand(tr);
 }
